@@ -2,7 +2,9 @@
 
 html,
 body {
-    height: 100%;
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
 
 .editor {
@@ -20,6 +22,18 @@ textarea {
   border-color: transparent transparent transparent #f2f2f2;
   padding: 0 1em;
   outline: none;
+}
+
+
+
+.CodeMirror {
+  height: 100%;
+  font-size: 1.5em;
+  font-family: "Courier New", monospace;
+}
+
+.CodeMirror-scroll {
+  margin-right: 0px;
 }
 
 .full-height {
